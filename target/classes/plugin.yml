@@ -1,0 +1,15 @@
+name: StonecutterFix
+version: 1.0.0
+main: com.minecraftserver.stonecutterfix.StonecutterFixPlugin
+api-version: 1.21
+author: TvojeMeno
+description: Oprava Geyser bugu #5195 pro Stonecutter hromadné craftění
+
+softdepend:
+  - Geyser-Spigot
+  - floodgate
+
+permissions:
+  stonecutterfix.use:
+    description: Umožňuje používat opravenou verzi stonecutteru
+    default: true
